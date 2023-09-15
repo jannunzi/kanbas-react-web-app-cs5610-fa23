@@ -1,0 +1,67 @@
+<table>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+        <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
+        <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+        <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+        <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+        <li>
+          <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+        </li>
+        <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+      </ul>
+    </td>
+    <td valign="top">
+      <label for="assignmentName">Assignment Name</label> <br />
+      <input
+        type="text"
+        value="Assingment 1 - HTML"
+        id="assignmentName"
+        placeholder="Assignment Name"
+      />
+      <h3>Description</h3>
+      <textarea cols="50" rows="5">
+        This is the first assignment to build Kanbas
+        </textarea
+      >
+
+      <h3>Points</h3>
+      <input value="100" type="number" max="100" min="50" step="5" />
+
+      <h3>Submission Type</h3>
+      <input type="checkbox" id="textEntry" />
+      <label for="textEntry">Text Entry</label><br />
+      <input type="checkbox" checked /> Website URL <br />
+
+      <label> <input type="checkbox" /> Media Recordings </label> <br />
+
+      <input type="checkbox" /> File Uploads<br />
+
+      <h3>Favorite Music Genre</h3>
+      <input type="radio" name="genre" /> Rock <br />
+      <input type="radio" name="genre" checked /> Pop <br />
+      <input type="radio" name="genre" /> Country <br />
+      <input type="radio" name="genre" /> Hip Hop <br />
+
+      <h3>Favorite Movie Genre</h3>
+      <input type="radio" name="movie" /> Action <br />
+      <input type="radio" name="movie" /> Comedy <br />
+      <input type="radio" name="movie" checked /> Drama <br />
+      <input type="radio" name="movie" /> Horror <br />
+
+      <h3>Due Date</h3>
+      <input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+
+      <h3>Other</h3>
+      <input type="color" value="#ff0000" />
+      <input type="email" />
+      <input type="tel" />
+    </td>
+  </tr>
+</table>
