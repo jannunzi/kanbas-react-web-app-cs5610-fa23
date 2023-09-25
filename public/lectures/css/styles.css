@@ -1,0 +1,33 @@
+.main-css-heading {
+  color: green;
+  background-color: yellow;
+}
+
+.fg-color-black {
+  color: black;
+}
+.fg-color-white {
+  color: white;
+}
+.fg-color-blue {
+  color: #7070ff;
+}
+.fg-color-red {
+  color: #ff7070;
+}
+.fg-color-green {
+  color: green;
+}
+
+.bg-color-yellow {
+  background-color: #ffff07;
+}
+.bg-color-blue {
+  background-color: #7070ff;
+}
+.bg-color-red {
+  background-color: #ff7070;
+}
+.bg-color-green {
+  background-color: green;
+}

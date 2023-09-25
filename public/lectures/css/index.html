@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="fg-color-green bg-color-yellow">Introduction to CSS</h1>
+    <h1 class="main-css-heading">Introduction to CSS</h1>
+
+    <h1 class="bg-yellow-2">Flex</h1>
+
+    <h2>Flex</h2>
+    <div class="wd-flex-row-container">
+      <div class="bg-color-yellow">Column 1</div>
+      <div class="bg-color-blue">Column 2</div>
+      <div class="bg-color-red wd-flex-grow-1">Column 3</div>
+    </div>
+
+    <br />
+
+    <div style="display: flex">
+      <div style="flex-basis: 100%; background-color: lightblue">Box 1</div>
+      <div style="flex-basis: 100%; background-color: lightcoral">
+        Box 2 Box 2<br />Box 2 Box 2
+      </div>
+      <div style="flex-basis: 100%; background-color: lightgreen">
+        Box 3 Box 3 Box 3<br />Box 3 Box 3 Box 3<br />Box 3 Box 3 Box 3
+      </div>
+    </div>
+    <br />
+    <div
+      style="align-items: center; display: flex; justify-content: space-evenly"
+    >
+      <div style="background-color: lightblue">Box 1</div>
+      <div style="background-color: lightcoral">
+        Box 2 Box 2<br />Box 2 Box 2
+      </div>
+      <div style="background-color: lightgreen">
+        Box 3 Box 3 Box 3<br />Box 3 Box 3 Box 3<br />Box 3 Box 3 Box 3
+      </div>
+    </div>
+
+    <br />
+
+    <div style="display: flex">
+      <div style="background-color: aquamarine">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quaerat
+        accusamus earum amet alias quidem, unde accusantium corporis deserunt
+        iste. Quos corrupti minima dicta obcaecati iure nisi delectus eius
+        necessitatibus.
+      </div>
+      <div style="background-color: cornsilk">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quaerat
+        accusamus earum amet alias quidem, unde accusantium corporis deserunt
+        iste. Quos corrupti minima dicta obcaecati iure nisi delectus eius
+        necessitatibus.
+      </div>
+      <div style="background-color: lightcoral">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quaerat
+        accusamus earum amet alias quidem, unde accusantium corporis deserunt
+        iste. Quos corrupti minima dicta obcaecati iure nisi delectus eius
+        necessitatibus.
+      </div>
+    </div>
+
+    <h1>Size and position</h1>
+    <p style="z-index: 100; width: 100px; background-color: yellow">
+      Paragraphs are block elements by default
+    </p>
+    <p
+      style="
+        position: relative;
+        left: 20px;
+        bottom: 50px;
+        width: 100px;
+        background-color: blue;
+        color: white;
+      "
+    >
+      but we can override their layout behavior
+    </p>
+
+    <p id="lorem1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eum in ipsa
+      fuga explicabo assumenda beatae sit officiis architecto quidem suscipit
+      voluptas perspiciatis culpa, modi autem facilis. Magnam, veritatis optio?
+    </p>
+
+    <p style="float: left; width: 50%; background-color: beige">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos
+      perferendis quidem qui, et suscipit eaque at deleniti vel similique
+      laudantium eum inventore corrupti obcaecati saepe? Consequuntur non
+      dolores dolore!
+    </p>
+    <p style="float: left; width: 50%; background-color: lightblue">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos
+      perferendis quidem qui, et suscipit eaque at deleniti vel similique
+      laudantium eum inventore corrupti obcaecati saepe? Consequuntur non
+      dolores dolore!
+    </p>
+    <div style="clear: both">
+      <p style="float: left; width: 20%; background-color: beige">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos
+        perferendis quidem qui, et suscipit eaque at deleniti vel similique
+        laudantium eum inventore corrupti obcaecati saepe? Consequuntur non
+        dolores dolore!
+      </p>
+      <p style="float: left; width: 80%; background-color: lightblue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos
+        perferendis quidem qui, et suscipit eaque at deleniti vel similique
+        laudantium eum inventore corrupti obcaecati saepe? Consequuntur non
+        dolores dolore!
+      </p>
+    </div>
+    <div style="clear: both">
+      <p style="float: left; width: 20%; background-color: beige">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos
+        perferendis quidem qui, et suscipit eaque at deleniti vel similique
+        laudantium eum inventore corrupti obcaecati saepe? Consequuntur non
+        dolores dolore!
+      </p>
+      <p style="float: left; width: 60%; background-color: lightblue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos
+        perferendis quidem qui, et suscipit eaque at deleniti vel similique
+        laudantium eum inventore corrupti obcaecati saepe? Consequuntur non
+        dolores dolore!
+      </p>
+      <p style="float: left; width: 20%; background-color: beige">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos
+        perferendis quidem qui, et suscipit eaque at deleniti vel similique
+        laudantium eum inventore corrupti obcaecati saepe? Consequuntur non
+        dolores dolore!
+      </p>
+    </div>
+    <div style="clear: both"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eum in ipsa
+      fuga explicabo assumenda beatae sit officiis architecto quidem suscipit
+      voluptas perspiciatis culpa, modi autem facilis. Magnam, veritatis optio?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eum in ipsa
+
+      <img style="float: left" src="/images/starship.png" width="200px" />
+      <img style="float: left" src="/images/starship.png" width="200px" />
+      <img style="float: left" src="/images/starship.png" width="200px" />
+
+      fuga explicabo assumenda beatae sit officiis architecto quidem suscipit
+      voluptas perspiciatis culpa, modi autem facilis. Magnam, veritatis optio?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eum in ipsa
+      fuga explicabo assumenda beatae sit officiis architecto quidem suscipit
+      voluptas perspiciatis culpa, modi autem facilis. Magnam, veritatis optio?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eum in ipsa
+      fuga explicabo assumenda beatae sit officiis architecto quidem suscipit
+      voluptas perspiciatis culpa, modi autem facilis. Magnam, veritatis optio?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eum in ipsa
+      fuga explicabo assumenda beatae sit officiis architecto quidem suscipit
+      voluptas perspiciatis culpa, modi autem facilis. Magnam, veritatis optio?
+    </p>
+  </body>
+</html>

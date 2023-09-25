@@ -1,105 +1,130 @@
-<table border="1" width="100%">
-  <tr>
-    <td valign="top">
-      <ul>
-        <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
-        <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
-        <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-      </ul>
-    </td>
-    <td valign="top">
-      <ul>
-        <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
-        <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
-        <li>
-          <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
-        </li>
-        <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
-      </ul>
-    </td>
-    <td valign="top">
-      <button>Collapse All</button>
-      <button>View Progress</button>
-      <select>
-        <option>Publish All</option>
-        <option>Publish all items and modules</option>
-        <option>UnPublish</option>
-      </select>
-      <button>+ Module</button>
-      <hr />
-      <ul>
-        <li>
-          Week 0
-          <ul>
-            <li>
-              LEARNING OBJECTIVES
-              <ul>
-                <li>Introduction to the course</li>
-                <li>Introduction to the course website</li>
-                <li>Introduction to the course tools</li>
-                <li>Introduction to the course assignments</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          Week 1
-          <ul>
-            <li>
-              LEARNING OBJECTIVES
-              <ul>
-                <li>Introduction to the course</li>
-                <li>Introduction to the course website</li>
-                <li>Introduction to the course tools</li>
-                <li>Introduction to the course assignments</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          Week 2
-          <ul>
-            <li>
-              LEARNING OBJECTIVES
-              <ul>
-                <li>Introduction to the course</li>
-                <li>Introduction to the course website</li>
-                <li>Introduction to the course tools</li>
-                <li>Introduction to the course assignments</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          Week 3
-          <ul>
-            <li>
-              LEARNING OBJECTIVES
-              <ul>
-                <li>Introduction to the course</li>
-                <li>Introduction to the course website</li>
-                <li>Introduction to the course tools</li>
-                <li>Introduction to the course assignments</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          Week 4
-          <ul>
-            <li>
-              LEARNING OBJECTIVES
-              <ul>
-                <li>Introduction to the course</li>
-                <li>Introduction to the course website</li>
-                <li>Introduction to the course tools</li>
-                <li>Introduction to the course assignments</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </td>
-    <td valign="top">Course Status</td>
-  </tr>
-</table>
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/KanbasNavigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/CourseNavigation/index.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="d-block d-md-none">
+      <a href="/Kanbas/KanbasNavigation">Kanbas Navigator</a>
+      <a href="/Kanbas/Courses/CourseNavigation">Course Navigator</a>
+    </div>
+    <div class="wd-flex-row-container">
+      <div class="wd-bg-color-black d-none d-md-block">
+        <ul class="wd-kanbas-navigation">
+          <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+          <li class="wd-active">
+            <a href="/Kanbas/Dashboard/screen.html">
+              <i class="fa fa-tachometer" aria-hidden="true"></i>
+              Dashboard</a
+            >
+          </li>
+          <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+          <li>
+            <a href="/Kanbas/Calendar/screen.html">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              Calendar
+            </a>
+          </li>
+          <li><a href="/Kanbas/Messages/screen.html">Messages</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="wd-course-navigation d-none d-md-block">
+          <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+          <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+          <li class="wd-active">
+            <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+          </li>
+          <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+        </ul>
+      </div>
+      <div class="wd-bg-color-red wd-flex-grow-1">
+        <button>Collapse All</button>
+        <button>View Progress</button>
+        <select>
+          <option>Publish All</option>
+          <option>Publish all items and modules</option>
+          <option>UnPublish</option>
+        </select>
+        <button>+ Module</button>
+        <hr />
+        <ul>
+          <li>
+            Week 0
+            <ul>
+              <li>
+                LEARNING OBJECTIVES
+                <ul>
+                  <li>Introduction to the course</li>
+                  <li>Introduction to the course website</li>
+                  <li>Introduction to the course tools</li>
+                  <li>Introduction to the course assignments</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Week 1
+            <ul>
+              <li>
+                LEARNING OBJECTIVES
+                <ul>
+                  <li>Introduction to the course</li>
+                  <li>Introduction to the course website</li>
+                  <li>Introduction to the course tools</li>
+                  <li>Introduction to the course assignments</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Week 2
+            <ul>
+              <li>
+                LEARNING OBJECTIVES
+                <ul>
+                  <li>Introduction to the course</li>
+                  <li>Introduction to the course website</li>
+                  <li>Introduction to the course tools</li>
+                  <li>Introduction to the course assignments</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Week 3
+            <ul>
+              <li>
+                LEARNING OBJECTIVES
+                <ul>
+                  <li>Introduction to the course</li>
+                  <li>Introduction to the course website</li>
+                  <li>Introduction to the course tools</li>
+                  <li>Introduction to the course assignments</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Week 4
+            <ul>
+              <li>
+                LEARNING OBJECTIVES
+                <ul>
+                  <li>Introduction to the course</li>
+                  <li>Introduction to the course website</li>
+                  <li>Introduction to the course tools</li>
+                  <li>Introduction to the course assignments</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="wd-bg-color-green d-none d-lg-block">Course Status</div>
+    </div>
+  </body>
+</html>
