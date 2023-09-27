@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="./index.css" />
+
 <table border="1">
   <tr>
     <td valign="top">
@@ -21,18 +24,26 @@
       <label for="assignmentName">Assignment Name</label> <br />
       <input
         type="text"
+        class="form-control"
         value="Assingment 1 - HTML"
         id="assignmentName"
         placeholder="Assignment Name"
       />
       <h3>Description</h3>
-      <textarea cols="50" rows="5">
+      <textarea class="form-control" rows="5">
         This is the first assignment to build Kanbas
         </textarea
       >
 
       <h3>Points</h3>
-      <input value="100" type="number" max="100" min="50" step="5" />
+      <input
+        class="form-control"
+        value="100"
+        type="number"
+        max="100"
+        min="50"
+        step="5"
+      />
 
       <h3>Submission Type</h3>
       <input type="checkbox" id="textEntry" />
@@ -56,12 +67,18 @@
       <input type="radio" name="movie" /> Horror <br />
 
       <h3>Due Date</h3>
-      <input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+      <input
+        class="form-control"
+        type="date"
+        value="2020-09-16"
+        min="2020-09-04"
+        max="2020-09-23"
+      />
 
       <h3>Other</h3>
-      <input type="color" value="#ff0000" />
-      <input type="email" />
-      <input type="tel" />
+      <input class="form-control" type="color" value="#ff0000" />
+      <input class="form-control" type="email" />
+      <input class="form-control" type="tel" />
     </td>
   </tr>
 </table>

@@ -1,0 +1,59 @@
+/* Bootstrap Overrides */
+
+/** Navbar **/
+
+.nav-link {
+  color: red;
+}
+
+.wd-fixed-top-margin {
+  margin-top: 70px;
+}
+
+/** Dashboard **/
+
+.wd-dashboard-grid .col {
+  width: 300px;
+}
+
+.wd-dashboard {
+  width: 300px;
+}
+
+/** Kanbas Navigation **/
+
+.wd-kanbas-navigation.list-group {
+  border-radius: 0;
+}
+
+.wd-kanbas-navigation .list-group-item {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.wd-kanbas-navigation .list-group-item.active {
+  color: black;
+  background-color: white;
+  border-color: white;
+  border: 2px solid black;
+}
+
+/** Course Navigation **/
+
+.wd-course-navigation.list-group {
+  border-radius: 0;
+}
+
+.wd-course-navigation .list-group-item {
+  color: red;
+  background-color: var(--bs-list-group-bg);
+  border: none;
+}
+
+.wd-course-navigation .list-group-item.active {
+  color: black;
+  background-color: white;
+  border-color: white;
+  border-left: 2px solid black;
+}
