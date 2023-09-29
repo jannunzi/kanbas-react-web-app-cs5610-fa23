@@ -1,381 +1,445 @@
 <link href="/lib/bootstrap/bootstrap.min.css" rel="stylesheet" />
+<link href="/Kanbas/KanbasNavigation/index.css" rel="stylesheet" />
+<link href="/Kanbas/Courses/CourseNavigation/index.css" rel="stylesheet" />
 <link href="./index.css" rel="stylesheet" />
 
 <div class="container-fluid wd-fixed-top-margin">
-  <h1>Bootstrap</h1>
+  <div class="d-flex">
+    <div style="position: fixed; left: 0px; top: 0px">
+      <ul class="wd-kanbas-navigation">
+        <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+        <li class="wd-active">
+          <a href="/Kanbas/Dashboard/screen.html">
+            <i class="fa fa-tachometer" aria-hidden="true"></i>
+            Dashboard</a
+          >
+        </li>
+        <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+        <li>
+          <a href="/Kanbas/Calendar/screen.html">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            Calendar
+          </a>
+        </li>
+        <li><a href="/Kanbas/Messages/screen.html">Messages</a></li>
+      </ul>
+    </div>
+    <div style="position: fixed; left: 80px">
+      <ul class="wd-course-navigation">
+        <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+        <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+        <li class="wd-active">
+          <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+        </li>
+        <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+      </ul>
+    </div>
+    <div style="position: relative; left: 200px">
+      <h1>Bootstrap</h1>
 
-  <h2>Navbar</h2>
+      <h2>Navbar</h2>
 
-  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+      <nav
+        style="left: 200px"
+        class="d-md-none navbar fixed-top navbar-expand-lg bg-body-tertiary"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <h2>Tabs</h2>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"
+            >Course Details</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Navigation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true">Apps</a>
+        </li>
+      </ul>
+
+      <h2>Dashboard</h2>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 wd-dashboard-grid">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/react.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
 
-  <h2>Tabs</h2>
+      <h2>Cards</h2>
 
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Course Details</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Sections</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Navigation</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" aria-disabled="true">Apps</a>
-    </li>
-  </ul>
-
-  <h2>Dashboard</h2>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4 wd-dashboard-grid">
-    <div class="col">
-      <div class="card h-100">
+      <div class="card" style="width: 18rem">
         <img src="/images/react.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
           </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a short card.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
+
+      <div class="card" style="width: 18rem">
         <img src="/images/react.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content.
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
           </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
+
+      <h2>Lists</h2>
+
+      <h3>Kanbas Navigator</h3>
+      <div class="list-group wd-kanbas-navigation">
+        <a
+          href="#"
+          class="list-group-item list-group-item-action active"
+          aria-current="true"
+        >
+          Home
+        </a>
+        <a href="#" class="list-group-item list-group-item-action"
+          >Assignments</a
+        >
+        <a href="#" class="list-group-item list-group-item-action">Grades</a>
+        <a href="#" class="list-group-item list-group-item-action">Zoom</a>
+        <a class="list-group-item list-group-item-action" aria-disabled="true"
+          >Piazza</a
+        >
+      </div>
+
+      <h3>Course Navigator</h3>
+
+      <div class="list-group wd-course-navigation">
+        <a
+          href="#"
+          class="list-group-item list-group-item-action active"
+          aria-current="true"
+        >
+          Home
+        </a>
+        <a href="#" class="list-group-item list-group-item-action"
+          >Assignments</a
+        >
+        <a href="#" class="list-group-item list-group-item-action">Grades</a>
+        <a href="#" class="list-group-item list-group-item-action">Zoom</a>
+        <a class="list-group-item list-group-item-action" aria-disabled="true"
+          >Piazza</a
+        >
+      </div>
+
+      <h3>Hyperlink List</h3>
+
+      <div class="list-group wd-kanbas-navigation">
+        <a
+          href="#"
+          class="list-group-item list-group-item-action active"
+          aria-current="true"
+        >
+          The current link item
+        </a>
+        <a href="#" class="list-group-item list-group-item-action"
+          >A second link item</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >A third link item</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >A fourth link item</a
+        >
+        <a
+          class="list-group-item list-group-item-action disabled"
+          aria-disabled="true"
+          >A disabled link item</a
+        >
+      </div>
+
+      <h3>Unordered List</h3>
+      <ul class="list-group">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item active">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+      </ul>
+
+      <h2>Grid System</h2>
+
+      <div class="row">
+        <div class="col-2 bg-primary-subtle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+          facilis laboriosam fuga ex repudiandae molestiae nisi dicta nihil
+          error aut. Sed, qui possimus. Ex libero dolores magnam laudantium nam?
+          Beatae.
+        </div>
+        <div class="col bg-danger-subtle">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nemo
+          temporibus placeat saepe atque sunt corporis ipsum, deleniti obcaecati
+          esse nulla ab odio molestias aliquam dolorem neque, facere minus!
+          Corporis!
+        </div>
+        <div class="col-2 bg-primary-subtle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+          facilis laboriosam fuga ex repudiandae molestiae nisi dicta nihil
+          error aut. Sed, qui possimus. Ex libero dolores magnam laudantium nam?
+          Beatae.
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
+
+      <hr />
+
+      <div class="container">
+        <div class="row">
+          <div class="d-none d-md-block col-md-2 col-lg-1 bg-body-secondary">
+            <h3>Kanbas Nav</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nam
+            labore possimus debitis molestias fugit? Placeat, soluta ut
+            consequatur tempore eaque quidem iusto cum saepe atque. Expedita
+            deleniti minima iste!
+          </div>
+          <div class="d-none d-md-block col-md-2 col-lg-1 bg-dark-subtle">
+            <h3>Course Nav</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            ipsa vel itaque debitis sed culpa ea, provident minus perspiciatis
+            omnis veritatis rerum recusandae, adipisci repellendus! Rem dolorem
+            iste illum omnis.
+          </div>
+          <div class="col bg-primary-subtle">
+            <h3>Modules</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet
+            placeat laborum consectetur enim minus dolore corporis doloremque
+            saepe incidunt? Explicabo perferendis facilis sapiente deleniti est
+            nulla magnam. Pariatur, ex?
+          </div>
+          <div
+            class="d-none d-md-block col-md-3 col-lg-2 col-xxl-1 bg-info-subtle"
+          >
+            <h3>Status</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet
+            placeat laborum consectetur enim minus dolore corporis doloremque
+            saepe incidunt? Explicabo perferendis facilis sapiente deleniti est
+            nulla magnam. Pariatur, ex?
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
-        </div>
+
+      <h2>Display Classes</h2>
+      <h2>D-NONE</h2>
+
+      <div class="d-none">Never Shows</div>
+      <div class="d-sm-none">Doesn't Show for small screens and above</div>
+      <div class="d-md-none">Doesn't Show for medium screens and above</div>
+      <div class="d-lg-none">Doesn't Show for large screens and above</div>
+      <div class="d-xl-none">
+        Doesn't Show for Extra large screens and above
+      </div>
+      <div class="d-xxl-none">
+        Doesn't Show for Extra Extra large screens and above
+      </div>
+
+      <h2>D-BLOCK</h2>
+
+      <div class="d-block">Always Shows</div>
+      <div class="d-none d-sm-block">Show for small screens and above</div>
+      <div class="d-none d-md-block">Show for medium screens and above</div>
+      <div class="d-none d-lg-block">Show for large screens and above</div>
+      <div class="d-none d-xl-block">
+        Show for Extra large screens and above
+      </div>
+      <div class="d-none d-xxl-block">
+        Show for Extra Extra large screens and above
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/images/react.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <h2>Cards</h2>
-
-  <div class="card" style="width: 18rem">
-    <img src="/images/react.png" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-
-  <div class="card" style="width: 18rem">
-    <img src="/images/react.png" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-
-  <h2>Lists</h2>
-
-  <h3>Kanbas Navigator</h3>
-  <div class="list-group wd-kanbas-navigation">
-    <a
-      href="#"
-      class="list-group-item list-group-item-action active"
-      aria-current="true"
-    >
-      Home
-    </a>
-    <a href="#" class="list-group-item list-group-item-action">Assignments</a>
-    <a href="#" class="list-group-item list-group-item-action">Grades</a>
-    <a href="#" class="list-group-item list-group-item-action">Zoom</a>
-    <a class="list-group-item list-group-item-action" aria-disabled="true"
-      >Piazza</a
-    >
-  </div>
-
-  <h3>Course Navigator</h3>
-
-  <div class="list-group wd-course-navigation">
-    <a
-      href="#"
-      class="list-group-item list-group-item-action active"
-      aria-current="true"
-    >
-      Home
-    </a>
-    <a href="#" class="list-group-item list-group-item-action">Assignments</a>
-    <a href="#" class="list-group-item list-group-item-action">Grades</a>
-    <a href="#" class="list-group-item list-group-item-action">Zoom</a>
-    <a class="list-group-item list-group-item-action" aria-disabled="true"
-      >Piazza</a
-    >
-  </div>
-
-  <h3>Hyperlink List</h3>
-
-  <div class="list-group wd-kanbas-navigation">
-    <a
-      href="#"
-      class="list-group-item list-group-item-action active"
-      aria-current="true"
-    >
-      The current link item
-    </a>
-    <a href="#" class="list-group-item list-group-item-action"
-      >A second link item</a
-    >
-    <a href="#" class="list-group-item list-group-item-action"
-      >A third link item</a
-    >
-    <a href="#" class="list-group-item list-group-item-action"
-      >A fourth link item</a
-    >
-    <a
-      class="list-group-item list-group-item-action disabled"
-      aria-disabled="true"
-      >A disabled link item</a
-    >
-  </div>
-
-  <h3>Unordered List</h3>
-  <ul class="list-group">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item active">A third item</li>
-    <li class="list-group-item">A fourth item</li>
-    <li class="list-group-item">And a fifth one</li>
-  </ul>
-
-  <h2>Grid System</h2>
-
-  <div class="row">
-    <div class="col-2 bg-primary-subtle">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-      facilis laboriosam fuga ex repudiandae molestiae nisi dicta nihil error
-      aut. Sed, qui possimus. Ex libero dolores magnam laudantium nam? Beatae.
-    </div>
-    <div class="col bg-danger-subtle">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nemo
-      temporibus placeat saepe atque sunt corporis ipsum, deleniti obcaecati
-      esse nulla ab odio molestias aliquam dolorem neque, facere minus!
-      Corporis!
-    </div>
-    <div class="col-2 bg-primary-subtle">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-      facilis laboriosam fuga ex repudiandae molestiae nisi dicta nihil error
-      aut. Sed, qui possimus. Ex libero dolores magnam laudantium nam? Beatae.
-    </div>
-  </div>
-
-  <hr />
-
-  <div class="container">
-    <div class="row">
-      <div class="d-none d-md-block col-md-2 col-lg-1 bg-body-secondary">
-        <h3>Kanbas Nav</h3>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nam
-        labore possimus debitis molestias fugit? Placeat, soluta ut consequatur
-        tempore eaque quidem iusto cum saepe atque. Expedita deleniti minima
-        iste!
-      </div>
-      <div class="d-none d-md-block col-md-2 col-lg-1 bg-dark-subtle">
-        <h3>Course Nav</h3>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa
-        vel itaque debitis sed culpa ea, provident minus perspiciatis omnis
-        veritatis rerum recusandae, adipisci repellendus! Rem dolorem iste illum
-        omnis.
-      </div>
-      <div class="col bg-primary-subtle">
-        <h3>Modules</h3>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet
-        placeat laborum consectetur enim minus dolore corporis doloremque saepe
-        incidunt? Explicabo perferendis facilis sapiente deleniti est nulla
-        magnam. Pariatur, ex?
-      </div>
-      <div class="d-none d-md-block col-md-3 col-lg-2 col-xxl-1 bg-info-subtle">
-        <h3>Status</h3>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet
-        placeat laborum consectetur enim minus dolore corporis doloremque saepe
-        incidunt? Explicabo perferendis facilis sapiente deleniti est nulla
-        magnam. Pariatur, ex?
-      </div>
-    </div>
-  </div>
-
-  <h2>Display Classes</h2>
-  <h2>D-NONE</h2>
-
-  <div class="d-none">Never Shows</div>
-  <div class="d-sm-none">Doesn't Show for small screens and above</div>
-  <div class="d-md-none">Doesn't Show for medium screens and above</div>
-  <div class="d-lg-none">Doesn't Show for large screens and above</div>
-  <div class="d-xl-none">Doesn't Show for Extra large screens and above</div>
-  <div class="d-xxl-none">
-    Doesn't Show for Extra Extra large screens and above
-  </div>
-
-  <h2>D-BLOCK</h2>
-
-  <div class="d-block">Always Shows</div>
-  <div class="d-none d-sm-block">Show for small screens and above</div>
-  <div class="d-none d-md-block">Show for medium screens and above</div>
-  <div class="d-none d-lg-block">Show for large screens and above</div>
-  <div class="d-none d-xl-block">Show for Extra large screens and above</div>
-  <div class="d-none d-xxl-block">
-    Show for Extra Extra large screens and above
   </div>
 </div>
 
