@@ -24,6 +24,7 @@ function KanbasNavigation() {
           className={`list-group-item ${pathname.includes(link) && "active"}`}
         >
           {linkToIconMap[link]}
+          <br/>
           {link}
         </Link>
       ))}
