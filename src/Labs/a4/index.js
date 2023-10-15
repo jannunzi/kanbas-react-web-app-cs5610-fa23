@@ -6,11 +6,13 @@ import BooleanState from "./BooleanState";
 import StringStateVariables from "./StringStateVariables";
 import ObjectState from "./ObjectState";
 import ArrayState from "./ArrayState";
+import ParentStateComponent from "./ParentStateComponent";
 
 function Assignment4() {
   return (
     <div>
       <h1>Assignment 4</h1>
+      <ParentStateComponent />
       <ArrayState />
       <ObjectState />
       <StringStateVariables />
