@@ -7,4 +7,5 @@ function ChildStateComponent({ counter, setCounter }) {
     </div>
   );
 }
+
 export default ChildStateComponent;

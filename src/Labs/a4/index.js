@@ -1,26 +1,39 @@
+import Add from "./Add";
+import ArrayStateVariable from "./ArrayStateVariable";
+import BooleanStateVariables from "./BooleanStateVariables";
 import ClickEvent from "./ClickEvent";
-import EventObject from "./EventObject";
-import FunctionsAsParameters from "./FunctionsAsParameters";
 import Counter from "./Counter";
-import BooleanState from "./BooleanState";
-import StringStateVariables from "./StringStateVariables";
-import ObjectState from "./ObjectState";
-import ArrayState from "./ArrayState";
+import DateStateVariable from "./DateStateVariable";
+import EventObject from "./EventObject";
+import ObjectStateVariable from "./ObjectStateVariable";
 import ParentStateComponent from "./ParentStateComponent";
+import PassingDataOnEvent from "./PassingDataOnEvent";
+import PassingFunctions from "./PassingFunctions";
+import StringStateVariables from "./StringStateVariables";
+import ReduxExamples from "./ReduxExamples";
 
 function Assignment4() {
+  function sayHello() {
+    alert("Hello");
+  }
+
   return (
     <div>
       <h1>Assignment 4</h1>
+      <ReduxExamples />
+
       <ParentStateComponent />
-      <ArrayState />
-      <ObjectState />
+      <ArrayStateVariable />
+      <ObjectStateVariable />
+      <DateStateVariable />
       <StringStateVariables />
-      <BooleanState />
+      <BooleanStateVariables />
       <Counter />
       <EventObject />
-      <FunctionsAsParameters />
+      <PassingFunctions theFunction={sayHello} />
+      <PassingDataOnEvent />
       <ClickEvent />
+      <Add a={1} b={2} />
     </div>
   );
 }

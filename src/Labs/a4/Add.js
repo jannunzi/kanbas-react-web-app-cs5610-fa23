@@ -1,14 +1,11 @@
-function Add({ a, b, add2 }) {
-  const add = (a, b) => {
-    return parseInt(a) + parseInt(b);
-  };
+function Add({ a, b }) {
   return (
     <div>
-      <h3>
-        Add({a}, {b}) = {add2(a, b)}
-      </h3>
+      <h2>Add</h2>
+      <p>
+        {a} + {b} = {a + b}
+      </p>
     </div>
   );
 }
-
 export default Add;
