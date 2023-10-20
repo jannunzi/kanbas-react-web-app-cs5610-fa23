@@ -9,6 +9,7 @@ import ObjectStateVariable from "./ObjectStateVariable";
 import ParentStateComponent from "./ParentStateComponent";
 import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
+import ReduxExamples from "./ReduxExamples";
 import StringStateVariables from "./StringStateVariables";
 
 function Assignment4() {
@@ -18,6 +19,7 @@ function Assignment4() {
   return (
     <div>
       <h1>Assignment 4</h1>
+      <ReduxExamples />
       <ParentStateComponent />
       <ArrayStateVariable />
       <ObjectStateVariable />
