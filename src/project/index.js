@@ -1,50 +1,40 @@
 import Home from "./home";
-import Login from "./login";
-import Signup from "./signup";
-import Profile from "./profile";
+
+import Signin from "./users/signin";
+import Signup from "./users/signup";
+import Account from "./users/account";
+import Admin from "./users/admin";
+
 import Search from "./search";
 import Details from "./details";
-import { Routes, Route, Link } from "react-router-dom";
-import { useState } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Nav from "./nav";
+import UserTable from "./users/table";
+import CourseList from "./courses/list";
+import CourseDetails from "./courses/details";
 
 function Project() {
-  const [key, setKey] = useState("home");
-
   return (
-    <div className="container-fluid">
-      <h1>Project</h1>
+    <div className="container-fluid pt-3">
       <div className="row">
         <div className="col-2">
-          <div className="list-group">
-            <Link to="/project/" className="list-group-item">
-              Home
-            </Link>
-            <Link to="/project/login" className="list-group-item">
-              Login
-            </Link>
-            <Link to="/project/signup" className="list-group-item">
-              Signup
-            </Link>
-            <Link to="/project/profile" className="list-group-item">
-              Profile
-            </Link>
-            <Link to="/project/search" className="list-group-item">
-              Search
-            </Link>
-            {/* <Link to="/project/details" className="list-group-item">
-              Details
-            </Link> */}
-          </div>
+          <Nav />
         </div>
         <div className="col-10">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/account" element={<Account />} />
+            <Route path="/account/:id" element={<Account />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/admin/users" element={<UserTable />} />
+            <Route path="/" element={<Navigate to="/project/home" />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/signin" element={<Signin />} />
+            <Route path="/courses" element={<CourseList />} />
+            <Route path="/courses/:cid" element={<CourseDetails />} />
             <Route path="/search" element={<Search />} />
             <Route path="/search/:search" element={<Search />} />
-            <Route path="/details/:albumId" element={<Details />} />
+            <Route path="/details/:id" element={<Details />} />
           </Routes>
         </div>
       </div>

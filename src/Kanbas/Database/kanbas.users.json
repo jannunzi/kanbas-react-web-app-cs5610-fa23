@@ -1,0 +1,384 @@
+[{
+  "_id": {
+    "$oid": "654f9ec2ea7ead465908d1e3"
+  },
+  "username": "white_wizard",
+  "password": "mithrandir42",
+  "firstName": "Gandalf",
+  "lastName": "the Grey",
+  "email": "gandalf@middleearth.com",
+  "dob": "unknown",
+  "role": "ADMIN"
+},
+{
+  "_id": {
+    "$oid": "654ff56dea7ead465908d1e4"
+  },
+  "username": "evenstar",
+  "password": "arwen123",
+  "firstName": "Arwen",
+  "lastName": "Undómiel",
+  "email": "arwen@rivendell.com",
+  "dob": "241-03-01",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "654ff586ea7ead465908d1e5"
+  },
+  "username": "lady_of_light",
+  "password": "lothlorien123",
+  "firstName": "Galadriel",
+  "lastName": "N/A",
+  "email": "galadriel@lothlorien.com",
+  "dob": "Years of the Trees",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc88"
+  },
+  "username": "iron_man",
+  "password": "stark123",
+  "firstName": "Tony",
+  "lastName": "Stark",
+  "email": "tony@stark.com",
+  "dob": "1970-05-29",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc89"
+  },
+  "username": "dark_knight",
+  "password": "wayne123",
+  "firstName": "Bruce",
+  "lastName": "Wayne",
+  "email": "bruce@wayne.com",
+  "dob": "1972-02-19",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc8a"
+  },
+  "username": "capt_america",
+  "password": "rogers123",
+  "firstName": "Steve",
+  "lastName": "Rogers",
+  "email": "steve@avengers.com",
+  "dob": "1918-07-04",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc8b"
+  },
+  "username": "black_widow",
+  "password": "romanoff123",
+  "firstName": "Natasha",
+  "lastName": "Romanoff",
+  "email": "natasha@avengers.com",
+  "dob": "1984-11-22",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc8c"
+  },
+  "username": "thor_odinson",
+  "password": "mjolnir123",
+  "firstName": "Thor",
+  "lastName": "Odinson",
+  "email": "thor@asgard.com",
+  "dob": "982-05-25",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc8d"
+  },
+  "username": "hulk_smash",
+  "password": "banner123",
+  "firstName": "Bruce",
+  "lastName": "Banner",
+  "email": "bruce@avengers.com",
+  "dob": "1969-12-18",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc8e"
+  },
+  "username": "ring_bearer",
+  "password": "shire123",
+  "firstName": "Frodo",
+  "lastName": "Baggins",
+  "email": "frodo@shire.com",
+  "dob": "1368-09-22",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc8f"
+  },
+  "username": "strider",
+  "password": "aragorn123",
+  "firstName": "Aragorn",
+  "lastName": "Elessar",
+  "email": "aragorn@gondor.com",
+  "dob": "2931-03-01",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "654ffdd3870c092d5441bc90"
+  },
+  "username": "elf_archer",
+  "password": "legolas123",
+  "firstName": "Legolas",
+  "lastName": "Greenleaf",
+  "email": "legolas@mirkwood.com",
+  "dob": "2879-07-15",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "654fff58ea7ead465908d1e7"
+  },
+  "username": "pandava_archer",
+  "password": "kuru123",
+  "firstName": "Arjuna",
+  "lastName": "Pandava",
+  "email": "arjuna@hastinapura.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654fff6fea7ead465908d1e8"
+  },
+  "username": "mithila_princess",
+  "password": "ramayana321",
+  "firstName": "Sita",
+  "lastName": "Janak",
+  "email": "sita@mithila.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654fff7bea7ead465908d1e9"
+  },
+  "username": "mighty_pandava",
+  "password": "gadadhari42",
+  "firstName": "Bhima",
+  "lastName": "Pandava",
+  "email": "bhima@hastinapura.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654fff89ea7ead465908d1ea"
+  },
+  "username": "panchali_princess",
+  "password": "dharma123",
+  "firstName": "Draupadi",
+  "lastName": "Panchal",
+  "email": "draupadi@panchala.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "654fffa9ea7ead465908d1eb"
+  },
+  "username": "flute_charmer",
+  "password": "mahabharata108",
+  "firstName": "Krishna",
+  "lastName": "Yadava",
+  "email": "krishna@dwaraka.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "654ffff6ea7ead465908d1ec"
+  },
+  "username": "monkey_king",
+  "password": "wukong777",
+  "firstName": "Sun",
+  "lastName": "Wukong",
+  "email": "wukong@mountHuaguo.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500001ea7ead465908d1ed"
+  },
+  "username": "moon_goddess",
+  "password": "chang'e123",
+  "firstName": "Chang",
+  "lastName": "E",
+  "email": "change@moonpalace.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6550000bea7ead465908d1ee"
+  },
+  "username": "third_lotus_prince",
+  "password": "nezha789",
+  "firstName": "Nezha",
+  "lastName": "N/A",
+  "email": "nezha@chalai.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500018ea7ead465908d1ef"
+  },
+  "username": "warrior_saint",
+  "password": "guanyu456",
+  "firstName": "Guan",
+  "lastName": "Yu",
+  "email": "guanyu@shu.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500022ea7ead465908d1f0"
+  },
+  "username": "great_flood_controller",
+  "password": "yuthegreat101",
+  "firstName": "Yu",
+  "lastName": "the Great",
+  "email": "yu@xiaDynasty.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "6550007bea7ead465908d1f1"
+  },
+  "username": "magic_lamp_seeker",
+  "password": "aladdin123",
+  "firstName": "Aladdin",
+  "lastName": "N/A",
+  "email": "aladdin@arabianNights.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500086ea7ead465908d1f2"
+  },
+  "username": "nightly_storyteller",
+  "password": "scheherazade1001",
+  "firstName": "Scheherazade",
+  "lastName": "N/A",
+  "email": "scheherazade@persia.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500090ea7ead465908d1f3"
+  },
+  "username": "seven_seas_adventurer",
+  "password": "sinbad777",
+  "firstName": "Sinbad",
+  "lastName": "the Sailor",
+  "email": "sinbad@sailorAdventures.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6550009aea7ead465908d1f4"
+  },
+  "username": "cave_opener",
+  "password": "openSesame40",
+  "firstName": "Ali",
+  "lastName": "Baba",
+  "email": "aliBaba@thieves.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "655000a4ea7ead465908d1f5"
+  },
+  "username": "immortal_guide",
+  "password": "greenOne786",
+  "firstName": "Khidr",
+  "lastName": "N/A",
+  "email": "khidr@eternalWisdom.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "655000eeea7ead465908d1f6"
+  },
+  "username": "heavenly_warrior",
+  "password": "michael777",
+  "firstName": "Michael",
+  "lastName": "Archangel",
+  "email": "michael@heavensrealm.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "655000f7ea7ead465908d1f7"
+  },
+  "username": "divine_messenger",
+  "password": "gabriel123",
+  "firstName": "Gabriel",
+  "lastName": "Archangel",
+  "email": "gabriel@heavensmail.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500100ea7ead465908d1f8"
+  },
+  "username": "parting_seas",
+  "password": "moses10",
+  "firstName": "Moses",
+  "lastName": "N/A",
+  "email": "moses@exodus.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500109ea7ead465908d1f9"
+  },
+  "username": "giant_slayer",
+  "password": "davidKing42",
+  "firstName": "David",
+  "lastName": "N/A",
+  "email": "david@israelkingdom.com",
+  "dob": "unknown",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "65500111ea7ead465908d1fa"
+  },
+  "username": "heavenly_gatekeeper",
+  "password": "peterRock12",
+  "firstName": "Peter",
+  "lastName": "Saint",
+  "email": "peter@pearlygates.com",
+  "dob": "unknown",
+  "role": "FACULTY"
+}]

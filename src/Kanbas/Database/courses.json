@@ -4,20 +4,53 @@
     "name": "Rocket Propulsion",
     "number": "RS4550",
     "startDate": "2023-01-10",
-    "endDate": "2023-05-15"
+    "endDate": "2023-05-15",
+    "department": "D123",
+    "credits": 4
   },
   {
     "_id": "RS102",
     "name": "Aerodynamics",
     "number": "RS4560",
     "startDate": "2023-01-10",
-    "endDate": "2023-05-15"
+    "endDate": "2023-05-15",
+    "department": "D123",
+    "credits": 3
   },
   {
     "_id": "RS103",
     "name": "Spacecraft Design",
     "number": "RS4570",
     "startDate": "2023-01-10",
-    "endDate": "2023-05-15"
+    "endDate": "2023-05-15",
+    "department": "D123",
+    "credits": 4
+  },
+  {
+    "_id": "CH101",
+    "name": "Organic Chemistry",
+    "number": "CH1230",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D134",
+    "credits": 3
+  },
+  {
+    "_id": "CH102",
+    "name": "Inorganic Chemistry",
+    "number": "CH1240",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D134",
+    "credits": 3
+  },
+  {
+    "_id": "CH103",
+    "name": "Physical Chemistry",
+    "number": "CH1250",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D134",
+    "credits": 3
   }
 ]

@@ -5,15 +5,15 @@ import * as client from "./client";
 function Details() {
   const [album, setAlbum] = useState(null);
   const [tracks, setTracks] = useState([]);
-  const { albumId } = useParams();
+  const { id } = useParams();
 
   const fetchAlbum = async () => {
-    const album = await client.findAlbumById(albumId);
+    const album = await client.findAlbumById(id);
     setAlbum(album);
   };
 
   const fetchTracks = async () => {
-    const tracks = await client.findTracksByAlbumId(albumId);
+    const tracks = await client.findTracksByAlbumId(id);
     setTracks(tracks);
   };
 
