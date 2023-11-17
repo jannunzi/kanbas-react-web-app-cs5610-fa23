@@ -5,7 +5,7 @@ import { Link, useParams, useNavigate } from "react-router-dom";
 
 function Search() {
   const { search } = useParams();
-  const [searchTerm, setSearchTerm] = useState(search);
+  const [searchTerm, setSearchTerm] = useState(search || "beatles");
   const [results, setResults] = useState(null);
   const navigate = useNavigate();
 
