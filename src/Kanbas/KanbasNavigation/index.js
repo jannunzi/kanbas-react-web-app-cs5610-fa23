@@ -5,7 +5,7 @@ import { FaBook } from "react-icons/fa";
 import { BsFillCalendar2WeekFill } from "react-icons/bs";
 import "./index.css";
 function KanbasNavigation() {
-  const links = ["Account", "Dashboard", "Courses", "Calendar"];
+  const links = ["Account", "Dashboard", "Courses", "Calendar", "Signin"];
 
   const linkToIconMap = {
     Account: <BiUserCircle className="wd-icon" />,
@@ -24,7 +24,7 @@ function KanbasNavigation() {
           className={`list-group-item ${pathname.includes(link) && "active"}`}
         >
           {linkToIconMap[link]}
-          <br/>
+          <br />
           {link}
         </Link>
       ))}

@@ -15,6 +15,8 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 import * as client from "./client";
+import SectionList from "./Sections/list";
+import Enrollments from "./Enrollments/list";
 
 function Courses() {
   const { courseId } = useParams();
@@ -31,7 +33,7 @@ function Courses() {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <h1>
         Courses {course.name} / {screen}
       </h1>
@@ -54,6 +56,8 @@ function Courses() {
               element={<AssignmentEditor />}
             />
             <Route path="Grades" element={<Grades />} />
+            <Route path="Sections" element={<SectionList />} />
+            <Route path="Sections/:sectionId" element={<Enrollments />} />
           </Routes>
         </div>
       </div>
